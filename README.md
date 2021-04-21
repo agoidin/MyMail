@@ -70,3 +70,5 @@ $ java -jar --enable-preview MyMail.jar
 
 ## :bangbang: Implementation Notes
 As it was a university project with limited timeframes and certain learning objectives, therefore only main functionalities were implemented. Project and GUI have some code templates and elements ready for futher development.
+
+***NB! Project was copied from private repo***
