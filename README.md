@@ -20,7 +20,7 @@ In addition MyMail has a modern looking GUI. For designing the layout of MyMail,
 ## :white_check_mark: Task Description
 This individual project was an implementation part of university final year thesis for ***SCC300:Third Year Project*** module. Main idea was to develop an MUA that uses self developed SMTP and IMAP protocols. To understand how protocols work, RFC papers were used as a guidance as well as Dovecot and Postfix manuals for individual specifications to each software.
 
-The whole process of researching background resources, design, implementation and testing decisions as well as evaluation are detailly documented in the thesis. It can be found  in supporting docs repository folder *file: [Thesis.pdf](https://github.com/agoidin/Patients-Health-Records-Management-System/blob/master/SupportingDocs/Risk%20Report.pdf)*
+The whole process of researching background resources, design, implementation and testing decisions as well as evaluation are detailly documented in the thesis. It can be found  in supporting docs repository folder *file: [Thesis.pdf](https://github.com/agoidin/MyMail/blob/main/SupportingDocs/Thesis.pdf)*
 
 ## :computer: Technologies
 Project is created with:
