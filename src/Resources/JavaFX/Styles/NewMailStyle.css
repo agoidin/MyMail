@@ -1,0 +1,52 @@
+.button:hover {
+    -fx-text-fill: rgb(149,234,169);
+    -fx-background-color: rgba(149,234,169, 0.1);
+}
+
+.button {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: rgba(149,234,169, 0.4);
+}
+
+/* #buttonBox {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: rgba(149,234,169, 0.4);
+} */
+
+#sendNewMailButton .image-view {
+    -fx-image: url("/Resources/Icons/sendNewMailButton.png");
+}
+
+#sendNewMailButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/sendNewMailButtonHover.png");
+}
+
+#deleteNewMailButton .image-view {
+    -fx-image: url("/Resources/Icons/deleteMailButton.png");
+}
+
+#deleteNewMailButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/deleteMailButtonHover.png");
+}
+
+#attachButton .image-view {
+    -fx-image: url("/Resources/Icons/attachButton.png");
+}
+
+#attachButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/attachButtonHover.png");
+}
+
+.text-field {
+    -fx-background-color: transparent;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+}
+
+.separator *.line {
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1 0; /* its make really one-pixel-border */
+    -fx-border-color: rgba(149,234,169, 0.4);
+}

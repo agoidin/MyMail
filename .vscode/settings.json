@@ -1,0 +1,12 @@
+{
+    // "files.exclude": {
+    //     "**/.classpath": true,
+    //     "**/.project": true,
+    //     "**/.settings": true,
+    //     "**/.factorypath": true
+    // },
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.project.referencedLibraries": [
+        "src/Resources/Extensions/javafx-sdk-11.0.2/**/*.jar"
+    ]
+}

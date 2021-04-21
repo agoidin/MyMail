@@ -1,0 +1,46 @@
+.button:hover {
+    -fx-text-fill: rgb(149,234,169);
+    -fx-background-color: rgba(149,234,169, 0.1);
+}
+
+#buttonBox {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: rgba(149,234,169, 0.4);
+}
+
+.text-area {
+    -fx-background-color: transparent;
+}
+
+/* Set the button icon */
+#closeMailContentButton .image-view {
+    -fx-image: url("/Resources/Icons/backButton.png");
+}
+
+#closeMailContentButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/backButtonHover.png");
+}
+
+#replyToMailButton .image-view {
+    -fx-image: url("/Resources/Icons/replyButton.png");
+}
+
+#replyToMailButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/replyButtonHover.png");
+}
+
+#deleteMailButton .image-view {
+    -fx-image: url("/Resources/Icons/deleteMailButton.png");
+}
+
+#deleteMailButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/deleteMailButtonHover.png");
+}
+
+#forwardMailButton .image-view {
+    -fx-image: url("/Resources/Icons/forwardButton.png");
+}
+
+#forwardMailButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/forwardButtonHover.png");
+}

@@ -1,0 +1,99 @@
+.root {
+    -fx-background-image: url("/Resources/Background/background.jpg");
+    -fx-background-size: cover, auto;
+    -fx-background-position: bottom right;
+    -fx-background-repeat: no-repeat;
+    -fx-font-family: "Titillium";
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+#sidePane {
+    -fx-background-color: rgba(149,234,169,0.4);
+}
+
+@font-face {
+    font-family: "Titillium";
+    src: url("/Resources/Fonts/TitilliumWeb-Regular.ttf");
+}
+
+/**
+ * Window button icons and hover effect
+ */
+#closeButton .image-view {
+    -fx-image: url("/Resources/Icons/closeButton.png");
+}
+
+#closeButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/closeButtonHover.png");
+}
+
+#minimizeButton .image-view {
+    -fx-image: url("/Resources/Icons/minimizeButton.png");
+}
+
+#minimizeButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/minimizeButtonHover.png");
+}
+
+#maximizeButton .image-view {
+    -fx-image: url("/Resources/Icons/maximizeButton.png");
+}
+
+#maximizeButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/maximizeButtonHover.png");
+}
+
+/**
+ * Side Menu button icons and hover effect
+ */
+#sideMenuButton .image-view {
+    -fx-image: url("/Resources/Icons/menuButton.png");
+}
+
+#sideMenuButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/menuButtonHover.png");
+}
+
+#sideMenuButton:hover {
+    -fx-background-color: white;
+}
+
+#newMailButton .image-view {
+    -fx-image: url("/Resources/Icons/newMailButton.png");
+}
+
+#newMailButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/newMailButtonHover.png");
+}
+
+#newMailButton:hover {
+    -fx-background-color: white;
+}
+
+#mailListButton .image-view {
+    -fx-image: url("/Resources/Icons/mailListButton.png");
+}
+
+#mailListButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/mailListButtonHover.png");
+}
+
+#mailListButton:hover {
+    -fx-background-color: white;
+}
+
+#accountListButton .image-view {
+    -fx-image: url("/Resources/Icons/accountListButton.png");
+}
+
+#accountListButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/accountListButtonHover.png");
+}
+
+#accountListButton:hover {
+    -fx-background-color: white;
+}

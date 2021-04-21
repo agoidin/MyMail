@@ -1,0 +1,34 @@
+#listElementPane {
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: rgba(149,234,169, 0.4);
+}
+
+#listElementPane:hover {
+    -fx-border-width: 0;
+    /* -fx-background-color: rgba(149,234,169, 0.1); */
+}
+
+.button {
+    -fx-border-width: 0;
+}
+
+.button:hover {
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+}
+
+#flagMailButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/flagButtonHover.png");
+}
+
+#deleteMailButton:hover .image-view {
+    -fx-image: url("/Resources/Icons/deleteMailButtonHover.png");
+}
+
+/* #listElementPane:hover #flagMailButton .image-view {
+    -fx-image: url("/Resources/Icons/flagButton.png");
+}
+
+#listElementPane:hover #deleteMailButton .image-view {
+    -fx-image: url("/Resources/Icons/deleteMailButtonGrey.png");
+} */
